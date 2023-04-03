@@ -66,7 +66,7 @@ export class AuthService {
       });
     }).catch(er => {
       loading.dismiss();
-      this.globalService.PresentAlert("error signIn: " + JSON.stringify(er));
+      this.globalService.PresentAlert("error signIn: " + JSON.stringify(er.message));
     });
   }
 

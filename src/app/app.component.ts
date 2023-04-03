@@ -51,7 +51,7 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
       GoogleAuth.initialize({
-        clientId: '723073598683-21fhhrmq3kkq1t6s3trpg6pfsf0bnh5j.apps.googleusercontent.com',
+        clientId: '1022013831847-368em19j1td1k4ql10sbdasofvb9qaqs.apps.googleusercontent.com',
         scopes: ['profile', 'email'],
         grantOfflineAccess: true,
       });

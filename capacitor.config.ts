@@ -1,14 +1,14 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.ridhtech.proabsen',
-  appName: 'pro absen',
+  appId: 'com.ridhtech.proabsen.ori',
+  appName: 'Pro Absen',
   webDir: 'www',
   bundledWebRuntime: false,
   plugins: {
     GoogleAuth: {
       scopes: ['profile', 'email'],
-      serverClientId: '723073598683-21fhhrmq3kkq1t6s3trpg6pfsf0bnh5j.apps.googleusercontent.com',
+      serverClientId: '1022013831847-368em19j1td1k4ql10sbdasofvb9qaqs.apps.googleusercontent.com',
       forceCodeForRefreshToken: true,
     },
   }

@@ -1,4 +1,4 @@
-package com.ridhtech.proabsen;
+package com.ridhtech.proabsen.ori;
 
 import android.os.Bundle;
 
